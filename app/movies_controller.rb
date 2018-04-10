@@ -24,7 +24,7 @@ end
 
 def can_be_created_in_a_block(attributes = nil)
   Movie.create do |m|
-    m.title = "undefined"
+    m.title = attributes
   end
 end
 
