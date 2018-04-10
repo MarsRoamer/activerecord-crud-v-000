@@ -66,7 +66,6 @@ def can_update_using_update_method
   Movie.create(title: "Wat?")
   test = Movie.find_by title: "Wat?"
   test.update(title: "Wath, huh?")
-  __
 end
 
 def can_update_multiple_items_at_once
